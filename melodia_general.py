@@ -104,7 +104,7 @@ def ambito(s):
     amb = analysis.discrete.Ambitus(s)
     amb = amb.getPitchSpan(s)
     result = amb[0].nameWithOctave + ' - ' + amb[1].nameWithOctave
-    if interval.Interval(amb[0].nameWithOctave, amb[1].nameWithOctave).semitones <= 33:
+    if interval.Interval(amb[0], amb[1]).semitones <= 33:
         return result, 'a voce piena'
     else: return result, 'ad aequales'
 
