@@ -13,7 +13,7 @@ Este proyecto articula un flujo de trabajo (*workflow*) guiado e interactivo des
 
 ---
 
-## 🏛️ Origen del proyecto
+## Origen del proyecto
 
 Este software y su flujo metodológico tienen su origen en la comunicación presentada en:
 
@@ -29,7 +29,7 @@ Este prototipo constituyó el punto de partida técnico y metodológico crucial 
 
 ---
 
-## 🚀 Capacidades y Módulos Desarrollados para el Workflow
+## 🚀 Módulos y funciones desarrolladas para el flujo de trabajo
 
 El flujo articulado en `nb_full.ipynb` permite cargar partituras polifónicas mediante selectores dinámicos basados en `ipywidgets`, procesarlas con las rutinas de los módulos de autoría propia y exportar una matriz comparativa final en formato Excel (`output.xlsx`).
 
@@ -57,7 +57,7 @@ El flujo articulado en `nb_full.ipynb` permite cargar partituras polifónicas me
 
 ---
 
-## 📁 Archivos de Prueba Incluidos
+## Archivos de prueba
 
 El repositorio incluye dos ejemplos polifónicos en formato MusicXML listos para comparar en el cuaderno:
 * **`josquin_kyrie.musicxml`**: *Kyrie* de la *Missa L'homme armé super voces musicales* de Josquin des Prés.
@@ -65,7 +65,7 @@ El repositorio incluye dos ejemplos polifónicos en formato MusicXML listos para
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Componentes técnicos
 - **Lenguaje:** Python 3.10+
 - **Módulos propios del proyecto:** `melodia_general.py`, `ngramas.py`, `acordes.py`, `base.py`
 - **Musicología computacional:** `music21`
@@ -74,7 +74,7 @@ El repositorio incluye dos ejemplos polifónicos en formato MusicXML listos para
 
 ---
 
-## 📦 Instalación
+## Instalación
 
 Sigue estos pasos en tu terminal (Linux / macOS / Windows):
 
@@ -103,7 +103,7 @@ python -m ipykernel install --user --name mir_music21 --display-name "Python (MI
 
 ---
 
-## 💻 Modo de Uso
+## Modo de Uso
 
 El flujo principal está completamente integrado y documentado en el cuaderno interactivo:
 
@@ -121,7 +121,7 @@ El flujo principal está completamente integrado y documentado en el cuaderno in
 
 ---
 
-## 📂 Estructura del Repositorio
+## Estructura del repositorio
 
 ```text
 MIR-Experiments-with-Music21/
@@ -139,7 +139,7 @@ MIR-Experiments-with-Music21/
 
 ---
 
-## 🤝 Contribuyendo y Citación
+## Contribuyendo y citación
 
 Para proponer mejoras, corregir incidencias o ampliar el soporte de formatos:
 1. Haz un **Fork** de este repositorio.
@@ -147,7 +147,7 @@ Para proponer mejoras, corregir incidencias o ampliar el soporte de formatos:
 3. Realiza tus commits con mensajes descriptivos.
 4. Abre un **Pull Request**.
 
-### 📚 Cómo citar este trabajo
+### Cómo citar este trabajo
 Si utilizas este software, sus módulos analíticos o su metodología en tus investigaciones, actividades docentes o publicaciones científicas, por favor cita el software registrado en Zenodo y la tesis doctoral de referencia:
 
 ```bibtex
@@ -191,7 +191,7 @@ Este proyecto está distribuido bajo los términos de la licencia libre **GNU Ge
 
 ---
 
-## 📬 Contacto
+## Contacto
 **Pablo López-Rocamora, PhD**  
 Universidad de Murcia  
 Para consultas académicas o reportes de errores, puedes abrir una incidencia (*issue*) en este repositorio.
